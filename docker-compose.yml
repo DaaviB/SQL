@@ -2,7 +2,7 @@ version: "3"
 services:
   mysql_curso:
     container_name: mysql_curso
-    hostname: mysql_curso
+    hostname: base_de_dados
     image: mysql
     restart: always
     command:

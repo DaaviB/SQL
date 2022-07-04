@@ -1,0 +1,1 @@
+select u.id as Uid, p.id as Pid, u.first_name, p.bio from users as u, profiles as p where u.id = p.users_id;
